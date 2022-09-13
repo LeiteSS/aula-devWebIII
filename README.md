@@ -1,5 +1,5 @@
-### Fatec ZL - Centro Paula Souza 
-##### Disciplina - Programação Web III 
+# Fatec ZL - Centro Paula Souza 
+## Disciplina - Programação Web III 
 Grupo 3 
 - Alan Nunes 
 - Ana Caroline 
@@ -7,7 +7,7 @@ Grupo 3
 - Silas Santos Leite
 - Raphael
 
-##### Processo de Desenvolvimento de Software - PDS
+## Processo de Desenvolvimento de Software - PDS
 > O PDS segue uma abordagem interativa incremental adaptada do Processo Unificado (Larman, 2006 - cap02). Cada atividade da interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade. 
 ![ciclo de desenvolvimento up](https://user-images.githubusercontent.com/68782201/180198367-01b275f2-1bf1-409c-a7b7-46f231e4ff6e.png) 
 - 1-Concepção – visão aproximada, casos de uso de negócio, escopo e estimativas vagas (fase de estudo de viabilidade) 
@@ -30,10 +30,10 @@ o DCD e o documento de requisitos não identificarem inconsistências |
 | Codificação |Será considerada concluída quando a análise de rastreabilidade entre o código e as funções solicitadas no documento de requisitos não identificarem inconsistências | 
 | Teste | Será considerada concluída quando 100% dos casos de teste prioritários (complexidade, funções mais utilizadas) rastreáveis para os requisitos obtiverem satisfatório | 
 
-##### Estudo de Caso - SIG de Vendas e Suprimentos
+## Estudo de Caso - SIG de Vendas e Suprimentos
 
 
-##### Concepção - análise de viabilidade técnica e econômica 
+### Concepção - análise de viabilidade técnica e econômica 
 > Considere que uma organização está iniciando um projeto para implantar um Sistema Integrado de Gestão de Vendas e Suprimentos. 
 Os seguintes requisitos foram identificados na primeira reunião com o cliente (RU – Requisito de Usuário). O resultado da análise conclui que será possível implementar o projeto no semestre com grupos de alunos atuando como 
 programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo do projeto (grupo de alunos formado na disciplina). O grupo deve definir estratégias para mitigar este risco – identificar 
@@ -41,7 +41,7 @@ dificuldades entre os membros do grupo, videoaulas, referência bibliográfica, 
 - RU01 - Compras - Registra e acompanha os processos de compras na organização, prevê a entrega programada de pedidos de compra 
 - RU02 - Recebimento - Registra, controla e informa sobre a entrada de mercadorias e integra as informações dos dados da nota fiscal de entrada com o estoque 
 - RU03 - Vendas – Registra e acompanha as vendas mantendo as informações integradas com o controle de estoque. 
-##### Elaboração - projeto 
+### Elaboração - projeto 
 > Cada requisito tem um identificador único de maneira que seja possível rastrear a necessidade do cliente com a implementação do software. A prioridade é estabelecida considerando o risco de falha. Quanto mais complexa uma função maior 
 é o risco de falha (alto, médio ou baixo). Perfil operacional de uso - quanto mais utilizada for uma função maior será o impacto em uma falha 
 
@@ -101,7 +101,7 @@ ClienteServiceI-->> APIClienteController: List[]
 APIClienteController -->> Usuario: JSon[] 
 ``` 
 
->Referencias 
+## Referencias 
 - [1] KRUCHTEN, Philippe. Reference: Title: Architectural blueprints—the “4+ 1” view model of software architecture. IEEE software, v. 12, n. 6, 1995. 
 - [2] RICHARDSON, Chris. Microservices patterns: with examples in Java. Simon and Schuster, 2018. 
 - [3] ERL, Thomas. SOA principles of service design (the Prentice Hall service-oriented computing series from Thomas Erl). Prentice Hall PTR, 2007. 
