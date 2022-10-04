@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserAppRepository extends JpaRepository<UsuarioApp, UUID> {
-	Optional<UsuarioApp> findByUserName(String usarName);
+public interface UserAppRepository extends JpaRepository<Usuario, UUID> {
+	Optional<Usuario> findByUserName(String usarName);
 }

@@ -6,7 +6,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import com.fatec.grupo3.model.UserAppRepository;
-import com.fatec.grupo3.model.UsuarioApp;
+import com.fatec.grupo3.model.Usuario;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
@@ -18,7 +18,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 	 */
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		UsuarioApp userApp = repository.findByUserName(username)
+		Usuario userApp = repository.findByUserName(username)
 				.orElseThrow(() -> new UsernameNotFoundException("Usuario não encontrado =>" + username));
 		return userApp;
 	}
